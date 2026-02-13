@@ -117,3 +117,7 @@ applicationDistribution.into('bin') {
     from(adServiceClient)
     fileMode = 0755
 }
+
+dependencyLocking {
+    lockAllConfigurations()
+}
